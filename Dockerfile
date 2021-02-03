@@ -5,8 +5,8 @@ FROM ${BASE_IMAGE}:${DEBIAN_VERSION}
 ARG BUILD_DATE
 ARG VCS_REF
 ARG INSTALL_DIR=/opt/tplink/EAPController
-ARG OMADA_VERSION=3.2.10
-ARG RELEASE_DATE=20200420
+ARG OMADA_VERSION=3.2.14
+ARG RELEASE_DATE=20201225
 LABEL \
     org.opencontainers.image.authors="correo@pablocaro.es" \
     org.opencontainers.image.created=$BUILD_DATE \
